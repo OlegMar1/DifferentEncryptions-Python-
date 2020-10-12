@@ -17,7 +17,7 @@ def encrypt_text(path_in, path_out):
                 l = " "
             i = random.randint(0,len(table[l])-1)
             #print(len(table[letter.strip()]))
-            rezult += table[l][0]
+            rezult += table[l][i]
             #print(rezult)
              
     #print(rezult)

@@ -31,5 +31,11 @@ File with decrypted text:
 
 __4)__	проаналізуйте частоту символів у відкритому тексті та у криптограмі у вигляді табл. 2 та табл. 3; ці частоти повинні суттєво відрізнятися.
 
+Statistics from standart file:
+<a href="files/standart_file_statistics.txt" download>Go to text file</a>
+
+Statistics from encrypted file:
+<a href="files/encrypted_file_statistics.txt" download>Go to text file</a>
+
 
 __5)__	підготувати опис/звіт про виконану роботу.

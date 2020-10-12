@@ -21,11 +21,15 @@ My text:
 
 __3)__	прочитати відкритий текст з файлу і зашифрувати його шифром зсуву; як ключ використовувати дату свого народження (наприклад, якщо студент народився 17 лютого, то використовує ключ n = 17); результат записати у файл;
 
+![1](screenshots/1.png)
+
 File with encrypted text:
 <a href="files/aaa.txt" download>Go to text file</a>
 
 
 __4)__	дешифрувати цю криптограму з метою отримання відкритого тексту;
+
+![1](screenshots/2.png)
 
 File with decrypted text:
 <a href="files/eee.txt" download>Go to text file</a>

@@ -10,16 +10,10 @@ __1)__	використовуючи наведені на рис. 2 дані п�
 
 ![1](screenshots/1.png)
 
-Program for encrypting:
-<a href="files/AZI_lab_1_encrypt.py" download>Go to My Code</a>
-
-Program for decrypting:
-<a href="files/AZI_lab_1_decrypt.py" download>Go to My Code</a>
-
 __2)__	програмно реалізувати процедуру шифрування для шифру пропорційної заміни, використовуючи свою таблицю; (я вирішив використати словник, де ключем буде буква, а значенням буде список з 2-цифрових чисел, що відповідають цій букві)
 
 Program for encrypting:
-<a href="files/AZI_lab_2" download>Go to My Code</a>
+<a href="files/AZI_lab-2" download>Go to My Code</a>
 
 File with my table:
 <a href="files/table.txt" download>Go to text file</a>

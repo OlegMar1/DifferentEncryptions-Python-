@@ -46,9 +46,14 @@ def standart_file_statistics(path_in, path_out):
 
     output_file.write("Value\tCount\n")
     a = sorted(Counter(statistic).items())
-    for k, v in a:
 
-        rez = str(k) + "\t" + str(v) + "\n"
+    sum = 0
+    for v, c in a:
+        sum += c
+
+    for v, c in a:
+        percent = int(((c/sum)*100)*100)/100
+        rez = str(v) + "\t" + str(percent) + "%" + "\n"
         output_file.write(rez)
 
     output_file.close()
@@ -78,9 +83,13 @@ def encrypted_file_statistics(path_in, path_out):
 
     output_file.write("Value\tCount\n")
     a = sorted(Counter(statistic).items())
-    for k, v in a:
+    sum = 0
+    for v, c in a:
+        sum += c
 
-        rez = str(k) + "\t" + str(v) + "\n"
+    for v, c in a:
+        percent = int(((c/sum)*100)*100)/100
+        rez = str(v) + "\t" + str(percent) + "%" + "\n"
         output_file.write(rez)
 
     output_file.close()

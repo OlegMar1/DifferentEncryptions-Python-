@@ -57,9 +57,9 @@ output_file = input("Enter output file name: ")
 key_word = input("Please, enter key word: ")
 
 
-print("\nEncrypting file...")
+print("\nDecrypting file...")
 
 printCompleatedProgressBar()
 encrypt_file(key_word, input_file, output_file)
 
-print("Encrypting compleated!\n")
+print("Decrypting compleated!\n")

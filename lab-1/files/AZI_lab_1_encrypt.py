@@ -5,8 +5,8 @@ beta = 'АБВГДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ'
 
 def encrypt_file(key, path_in, path_out):
 
-    input_file = open(path_in,"r")   
-    output_file = open(path_out, "w")
+    input_file = open(path_in, "r", encoding='utf-8')   
+    output_file = open(path_out, "w", encoding='utf-8')
     rezult = ''
     temp = ''
 

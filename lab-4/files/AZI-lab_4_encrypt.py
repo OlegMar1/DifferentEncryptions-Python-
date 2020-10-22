@@ -10,8 +10,8 @@ def encrypt_file(key_word, path_in, path_out):
     rezult = ''
     N = len(table)
 
-    input_file = open(path_in, "r")
-    output_file = open(path_out, "w")
+    input_file = open(path_in, "r", encoding='utf-8')
+    output_file = open(path_out, "w", encoding='utf-8')
 
     for line in input_file:
         

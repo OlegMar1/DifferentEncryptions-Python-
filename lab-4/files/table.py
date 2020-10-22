@@ -15,7 +15,7 @@ def fill_table():   # заповнення словника з заданого 
     str = ''
     file_name = "table.txt"
     flag = 1
-    myfile = open(file_name, "r")
+    myfile = open(file_name, "r", encoding='utf-8')
 
     for line in myfile:
         for letter in line:

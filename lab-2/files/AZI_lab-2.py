@@ -7,8 +7,8 @@ import random
 def encrypt_text(path_in, path_out):
     table = fill_table()
     rezult = ''
-    input_file = open(path_in, "r")
-    output_file = open(path_out, "w")
+    input_file = open(path_in, "r", encoding='utf-8')
+    output_file = open(path_out, "w", encoding='utf-8')
 
     for line in input_file:
         for letter in line:

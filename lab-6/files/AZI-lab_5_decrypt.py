@@ -13,8 +13,8 @@ def decrypt_file(path_in, path_out):
     flag = 0 # це перевірка, чи знайшла функція вже 2 букви, щоб приступити до їх шифрування
     k = 1 # потрібна для того, щоб функція спочатку знайшла 2 букви, а вже потім почала їх щифрувати
 
-    input_file = open(path_in, "r")
-    output_file = open(path_out, "w")
+    input_file = open(path_in, "r", encoding='utf-8')
+    output_file = open(path_out, "w", encoding='utf-8')
 
     for line in input_file:
         

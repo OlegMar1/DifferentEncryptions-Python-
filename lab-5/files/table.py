@@ -4,7 +4,7 @@ def fill_table():   # заповнення таблиці з заданого ф
     arr = []
     file_name = "table.txt"
     #flag = 1
-    myfile = open(file_name, "r")
+    myfile = open(file_name, "r", encoding='utf-8')
 
     for line in myfile:
         for letter in line:

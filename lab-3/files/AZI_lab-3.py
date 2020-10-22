@@ -5,13 +5,14 @@ from progress_bar import printCompleatedProgressBar
 from collections import Counter
 
 
+
 def decrypt_text(path_in, path_out):
     table = fill_table()
     rezult = ''
     number = ''
     i = 1
-    input_file = open(path_in, "r")
-    output_file = open(path_out, "w")
+    input_file = open(path_in, "r", encoding='utf-8')
+    output_file = open(path_out, "w", encoding='utf-8')
 
     for line in input_file:
         for letter in line:
@@ -32,8 +33,8 @@ def decrypt_text(path_in, path_out):
 
 
 def standart_file_statistics(path_in, path_out):
-    input_file = open(path_in, "r")
-    output_file = open(path_out, "w")
+    input_file = open(path_in, "r", encoding='utf-8')
+    output_file = open(path_out, "w", encoding='utf-8')
     statistic = []
 
     for line in input_file:
@@ -62,8 +63,8 @@ def standart_file_statistics(path_in, path_out):
 
 
 def encrypted_file_statistics(path_in, path_out):
-    input_file = open(path_in, "r")
-    output_file = open(path_out, "w")
+    input_file = open(path_in, "r", encoding='utf-8')
+    output_file = open(path_out, "w", encoding='utf-8')
     statistic = []
     number = ''
     i = 1

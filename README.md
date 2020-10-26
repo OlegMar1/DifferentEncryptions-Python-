@@ -12,4 +12,4 @@ __4.__ <a href="https://github.com/OlegMar1/DifferentEncryptions-Python-/tree/ma
 
 __5.__ <a href="https://github.com/OlegMar1/DifferentEncryptions-Python-/tree/main/lab-5/readme.md">Шифр Плейфера: процедура шифрування</a>
 
-__6.__ <a href="https://github.com/OlegMar1/DifferentEncryptions-Python-/tree/main/lab-/readme.md">Шифр Плейфера: процедура дешифрування</a>
+__6.__ <a href="https://github.com/OlegMar1/DifferentEncryptions-Python-/tree/main/lab-6/readme.md">Шифр Плейфера: процедура дешифрування</a>

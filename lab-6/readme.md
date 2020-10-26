@@ -25,7 +25,7 @@ __2)__	дешифрувати криптограму, отриману у рез
 
 ![1](screenshots/1.png)
 
-File with edecrypted text:
+File with deecrypted text:
 <a href="files/eee.txt" download>Go to text file</a>
 
 ---
